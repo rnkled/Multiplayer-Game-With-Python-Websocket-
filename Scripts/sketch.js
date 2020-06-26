@@ -135,7 +135,7 @@ function createStartBT() {
 
 
   function playBG() {
-    var audio = new Audio('assets/game.mp3');
+    var audio = new Audio('Assets/game.mp3');
     audio.loop = true;
     audio.play();
     startBT.remove();
